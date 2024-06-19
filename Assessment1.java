@@ -64,7 +64,7 @@ public class Assessment1
 		{
 			driver.findElement(By.xpath("//button[@title='Edit Goal']/lightning-primitive-icon")).click();
 			driver.findElement(By.xpath("//input[@class='slds-input']")).clear();
-			driver.findElement(By.xpath("//input[@class='slds-input']")).sendKeys(goal);
+			driver.findElement(By.xpath("//input[@class='slds-input']")).sendKeys(goalValue);
 			driver.findElement(By.xpath("//button[text()='Save']")).click();
 		}
 		
