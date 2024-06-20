@@ -197,5 +197,6 @@ public class Assessment1
 		{
 			System.out.println("Deletion is successful");
 		}
+		driver.close();
 	}
 }
